@@ -49,7 +49,8 @@
 
 }
 .carousel img{
-  height: 30%;
+  width: 50%;
+  height: 80%;
   object-fit: cover;
   user-select: none;
   margin-left: 14px;
