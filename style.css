@@ -295,7 +295,7 @@ section{
     font-size: 80px;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 400px) {
         .nosotros {
             position: relative;
         display: grid;
@@ -970,6 +970,6 @@ margin-right: 15px;
    }
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 400px){
     
 }
