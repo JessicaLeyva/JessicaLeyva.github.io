@@ -61,7 +61,7 @@ section{
 }
 
 
-@media (max-width: 500px){
+@media (max-width: 700px){
     .enlace{
         padding-left: 20px;
     }
@@ -73,7 +73,7 @@ section{
     }
 }
 
-@media (max-width: 500px){
+@media (max-width: 700px){
     .checkbtn{
         display: block;
      }
@@ -234,7 +234,7 @@ section{
     height: auto;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 700px) {
     .pie-image {
       max-width: 100%; 
       margin: -30px auto; 
@@ -853,7 +853,7 @@ margin-right: 15px;
     color: white;
     margin: 5%;
 }
-@media (max-width:500px) {
+@media (max-width:700px) {
 
 
     .contactus {
@@ -952,6 +952,6 @@ margin-right: 15px;
    }
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 700px){
     
 }
