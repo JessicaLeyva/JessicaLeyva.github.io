@@ -61,7 +61,7 @@ section{
 }
 
 
-@media (max-width: 700px){
+@media (max-width: 400px){
     .enlace{
         padding-left: 20px;
     }
@@ -73,7 +73,7 @@ section{
     }
 }
 
-@media (max-width: 700px){
+@media (max-width: 400px){
     .checkbtn{
         display: block;
      }
@@ -234,7 +234,7 @@ section{
     height: auto;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 400px) {
     .pie-image {
       max-width: 100%; 
       margin: -30px auto; 
@@ -853,11 +853,11 @@ margin-right: 15px;
     color: white;
     margin: 5%;
 }
-@media (max-width:700px) {
+@media (max-width:400px) {
 
 
     .contactus {
-    padding: 20px;
+    padding: 10px;
 
 }
 .link p {
@@ -882,9 +882,12 @@ margin-right: 15px;
         "form"
         "info"
         "map";
+        width:90%;
     }
 
-
+    .contact info{
+        width:90%;
+    }
 
     .formbox .row50 {
         display: flex;
@@ -914,8 +917,9 @@ margin-right: 15px;
    }
 
    .header-content h1{
-    font-size: 800%;
+    font-size: 600%;
     margin-top:0;
+    padding: 3%;
    }
 
    .header-content p{
@@ -925,7 +929,7 @@ margin-right: 15px;
 
    .viñedo2 h2{
     padding: 10%;
-    font-size: 75px;
+    font-size: 65px;
    }
 
    .footer {
