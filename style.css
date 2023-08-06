@@ -109,6 +109,10 @@ section{
      #check:checked ~ ul{
         left: 0;
      }
+    .services{
+        width:100%;
+        height:auto;
+    }
 }
 
 
@@ -858,6 +862,8 @@ margin-right: 15px;
 
     .contactus {
     padding: 10px;
+    height:auto;
+        width:100%;
 
 }
 .link p {
@@ -882,11 +888,13 @@ margin-right: 15px;
         "form"
         "info"
         "map";
-        width:90%;
+        height:auto;
+        width:100%;
     }
 
     .contact info{
-        width:90%;
+        height:auto;
+        width:100%;
     }
 
     .formbox .row50 {
@@ -897,11 +905,15 @@ margin-right: 15px;
 
     .inputbox {
         width: 100%;
+        height:auto;
+        
 
     }
 
     .contact {
         padding: 30px;
+        height:auto;
+        width:100%;
     }
 
     .map {
@@ -914,6 +926,8 @@ margin-right: 15px;
     display: grid;
     grid-template-columns: 1fr;
     margin-left: 10%;
+       height:auto;
+        width:100%;
    }
 
    .header-content h1{
