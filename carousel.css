@@ -49,11 +49,11 @@
 
 }
 .carousel img{
-  width: 50%;
-  height: 80%;
+  width: 30%;
+  height: 60%;
   object-fit: cover;
   user-select: none;
-  margin-left: 14px;
+  margin-left: 10px;
   display: over;
 
 }
@@ -64,13 +64,13 @@
 
 @media screen and (max-width: 1400px) {
   .carousel img{
-    width: 80%;
+    width: 60%;
   }
 }
 
 @media screen and (max-width: 550px) {
   .carousel img{
-    width: 80%;
+    width: 60%;
   }
 }
 
