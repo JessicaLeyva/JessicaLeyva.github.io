@@ -49,7 +49,7 @@
 
 }
 .carousel img{
-  height: 50%;
+  height: 30%;
   object-fit: cover;
   user-select: none;
   margin-left: 14px;
@@ -63,13 +63,13 @@
 
 @media screen and (max-width: 1400px) {
   .carousel img{
-    width: calc(100% / 2);
+    width: 80%;
   }
 }
 
 @media screen and (max-width: 550px) {
   .carousel img{
-    width: 350px;
+    width: 80%;
   }
 }
 
