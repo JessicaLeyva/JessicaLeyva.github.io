@@ -54,7 +54,7 @@ li a.active, li a:hover{
     display: none;
 }
 section{
-    background: url(/images/fondo.jpeg) no-repeat;
+    background: url(fondo.jpeg) no-repeat;
     background-size: cover;
     background-position: center center;
     height: auto;
@@ -125,7 +125,7 @@ section{
     background-image: linear-gradient(
     rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.7)), 
-    url(../IMAGES/enoturismo.jpeg);
+    url(enoturismo.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -311,7 +311,7 @@ section{
 
 .marco-image {
 
-    background-image: url('../IMAGES/bg1.png');
+    background-image: url('IMAGES/bg1.png');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px; 
