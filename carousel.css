@@ -49,12 +49,13 @@
 
 }
 .carousel img{
-  width: 30%;
-  height: 60%;
+  width: 50px;
+  height: 80px;
   object-fit: cover;
   user-select: none;
-  margin-left: 10px;
+  margin-left: 14px;
   display: over;
+  z-index:1;
 
 }
 .carousel img:first-child{
@@ -65,12 +66,16 @@
 @media screen and (max-width: 1400px) {
   .carousel img{
     width: 60%;
+    z-index:1;
+    height: 90%;
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 450px) {
   .carousel img{
     width: 60%;
+    height: 90%;
+    z-index:1;
   }
 }
 
