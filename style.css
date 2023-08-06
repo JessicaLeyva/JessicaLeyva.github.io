@@ -311,7 +311,7 @@ section{
 
 .marco-image {
 
-    background-image: url('IMAGES/bg1.png');
+    background-image: url('bg1.png');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px; 
