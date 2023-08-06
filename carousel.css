@@ -49,8 +49,8 @@
 
 }
 .carousel img{
-  width: 50px;
-  height: 80px;
+  width: 30px;
+  height: 60px;
   object-fit: cover;
   user-select: none;
   margin-left: 14px;
@@ -65,9 +65,9 @@
 
 @media screen and (max-width: 1400px) {
   .carousel img{
-    width: 60%;
+    width: 60px;
     z-index:1;
-    height: 90%;
+    height: 90px;
   }
 }
 
