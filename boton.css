@@ -43,6 +43,7 @@
     position: fixed;
     transition: background-color 0.3s ease-in-out;
     z-index: 999; 
+    width: 100%;
   }
   
   .navbar.transparent {
@@ -52,6 +53,7 @@
   .navbar.scrolled {
     background-color: #c00063;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        width: 100%;
   }
   
 
