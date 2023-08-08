@@ -19,6 +19,7 @@ nav{
     background: #c00063;
     width: 100%;
     font-family:  'lobster';
+    overflow:hidden;
 }
 .enlace{
     position: absolute;
