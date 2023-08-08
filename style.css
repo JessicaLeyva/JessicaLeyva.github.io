@@ -637,7 +637,20 @@ p {
     text-align: center;
 }
 
+.contact info {
+ width: 100%;
+ margin-left: 3%;
+}
 
+.contact form {
+    width: 100%;
+    margin-left: 3%;
+}
+
+.contact map{
+    width: 100%;
+    margin-left: 3%;
+}
     .box {
         position: relative;
         display: grid;
