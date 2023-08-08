@@ -17,7 +17,6 @@ body {
 
 nav{
     background: #c00063;
-    height: 80px;
     width: 100%;
     font-family:  'lobster';
 }
@@ -62,7 +61,8 @@ li a.active, li a:hover{
 }
 
 @media only screen and (min-width: 350px) and (max-width:550px){
-    
+
+
     .enlace{
         padding-left: 20px;
     }
@@ -208,7 +208,7 @@ li a.active, li a:hover{
           }
           
     .viñedo2 h2 {
-              font-size: 90px;
+              font-size: 100%;
               line-height: 70px;
               color: #232323;
               margin-bottom: 5px;
