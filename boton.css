@@ -39,7 +39,6 @@
     background-color: #9e145c;
   }
   
-/* Estilos iniciales del menú */
 .navbar {
     position: fixed;
     transition: background-color 0.3s ease-in-out;
@@ -51,7 +50,7 @@
   }
   
   .navbar.scrolled {
-    background-color: #c00063; /* Cambia el color según tus preferencias */
+    background-color: #c00063;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
