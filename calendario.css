@@ -1,0 +1,80 @@
+body {
+    font-family: 'aclonica';
+    height: fit-content;
+    
+}
+
+.calendario {
+    max-width: 400px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.calendario-header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.calendario-dias {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.dia-semana {
+    text-align: center;
+}
+
+.calendario-celdas {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    text-decoration: none;
+}
+
+.calendario-celda {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.calendario-celda:hover {
+    background-color: #f0f0f0;
+}
+
+.evento {
+    background-color: #cf1c8e;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+
+@media (max-width: 400px) {
+    .calendario {
+        max-width: 90%; /* Reducir el ancho máximo para pantallas pequeñas */
+    }
+
+    .calendario-dias,
+    .calendario-celdas {
+        grid-template-columns: repeat(7, minmax(20px, 1fr)); /* Ajustar el tamaño de las columnas para pantallas pequeñas */
+        gap: 3px;
+    }
+
+    .calendario-header {
+        font-size: 20px; /* Reducir el tamaño de fuente para pantallas pequeñas */
+    }
+
+    .evento {
+        font-size: 12px; /* Reducir el tamaño de fuente de los eventos para pantallas pequeñas */
+    }
+}
+

@@ -1,0 +1,62 @@
+.boton-container {
+
+    margin: 20px auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#boton-enlace {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c00063;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#boton-enlace:hover {
+    background-color: #9f0153;
+}
+
+.scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    width: 2em;
+    height: 2em;
+    font-size: 24px;
+    background-color: #c11c61;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .scroll-to-top:hover {
+    background-color: #9e145c;
+  }
+  
+/* Estilos iniciales del menú */
+.navbar {
+    position: fixed;
+    transition: background-color 0.3s ease-in-out;
+    z-index: 999; 
+    width: 100%;
+  }
+  
+  .navbar.transparent {
+    background-color: transparent;
+  }
+  
+  .navbar.scrolled {
+    background-color: #c00063; /* Cambia el color según tus preferencias */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+
+  
+  
