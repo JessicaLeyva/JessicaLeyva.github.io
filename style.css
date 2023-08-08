@@ -103,7 +103,7 @@ li a.active, li a:hover{
     background-image: linear-gradient(
     rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.7)), 
-    url(../IMAGES/enoturismo.jpeg);
+    url(enoturismo.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
