@@ -1,0 +1,140 @@
+
+body {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+nav {
+    background: #c00063;
+    height: 80px;
+    width: 100%;
+    font-family: 'lobster';
+}
+
+@media only screen and (min-width: 350px) and (max-width: 550px) {
+    .enlace {
+        padding-left: 20px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        background-color: #272727;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 30px;
+        margin-left: 5%;
+    }
+
+    li a:hover,
+    li a.active {
+        background: none;
+        color: #c00063;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    .header-content h1 {
+        font-size: 500%;
+    }
+
+    .header-content p {
+        font-size: 120%;
+        padding: 0 20px;
+    }
+
+    .services-content h2 {
+        font-size: 40px;
+    }
+
+    .services-content p {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+
+    .services-group {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .services-1 {
+        padding: 0 20px;
+    }
+
+    .services-1 h3 {
+        font-size: 25px;
+    }
+
+    .footer-content {
+        display: block;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .link a {
+        font-size: 14px;
+        color: #f9fafc;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .link p {
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        margin: 5%;
+        padding: 5%;
+        margin-top: 30px;
+    }
+
+    .box {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "form" "info" "map";
+    }
+
+    .formbox .row50 {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .inputbox {
+        width: 100%;
+    }
+
+    .contact {
+        padding: 30px;
+    }
+
+    .map {
+        min-height: 300px;
+        padding: 0;
+    }
+}
