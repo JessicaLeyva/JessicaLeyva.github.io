@@ -647,6 +647,8 @@ p {
         "form"
         "info"
         "map";
+           width: 100%;
+        margin-left: 3%;
     }
 
 
@@ -764,4 +766,11 @@ p {
     display: block;
     transition: transform 0.3s;
   }
+      .nav {
+          width:100%;
+      }
+      .navbar {
+          width:100%;
+      }
+      
   }
