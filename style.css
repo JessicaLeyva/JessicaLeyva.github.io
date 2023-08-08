@@ -1,0 +1,715 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Borel&family=Galada&family=Grand+Hotel&family=Lobster&family=Pacifico&family=Poppins:wght@200;400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #c00063;
+    height: 80px;
+    width: 100%;
+    font-family:  'lobster';
+}
+.enlace{
+    position: absolute;
+    padding: 20px 40px;
+}
+.logo{
+    height: 110px;
+    margin-top: -30%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+li a.active, li a:hover{
+    background: #76013e;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+@media (max-width: 500px){
+
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    .checkbtn{
+        display: block;
+     }
+     ul{
+        position:absolute;
+        width: 100%;
+        height: auto;
+        background-color:  #272727;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+     }
+     nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+     }
+     nav ul li a{
+        font-size: 30px;
+        margin-left: 5%;
+     }
+     li a:hover, li a.active{
+        background: none;
+        color:#c00063;
+     }
+     #check:checked ~ ul{
+        left: 0;
+     }
+}
+
+.services {
+    background-image: linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.7)), 
+    url(../IMAGES/enoturismo.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+    width: auto;
+    height: 750px;
+}
+
+.header-content {
+    text-align: center;
+    height: 90%;
+}
+
+.header-content h1{
+    font-size:1000%;
+    line-height: 160px;
+    color: #f9fafc;
+    margin-bottom: 35px;
+    font-family: 'lobster';
+    font-weight: 400;
+    margin-top: 100px;
+}
+
+.header-content p {
+    font-size: 180%;
+    color: #c5c5c5;
+    padding: 0 150px;
+    margin-bottom: 25px;
+    text-align: center;
+    text-justify: auto;
+    font-family: 'Aclonica', sans-serif;
+    font-weight: 400;
+}
+
+.pie-image {
+    background-color: transparent; 
+    margin-top: -90px;
+    width: 100%;
+    height: auto;
+  }
+
+  .img-fluid {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+
+}
+
+  .historia {
+    display: flex;
+    justify-content: center;
+    background: #c00063;
+    margin-top: -70px;
+  }
+  
+  .nosotros {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 100px;
+    padding: auto;
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .nosotros1 {
+    text-align: center;
+    width: 100px;
+    margin: 150px;
+    padding: auto;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+  
+  .iconss {
+    font-size: 80px;
+  }
+  
+  @media (max-width: 768px) {
+        .nosotros {
+            position: relative;
+        display: grid;
+        }
+        .historia {
+            margin-top: -20px;
+        }
+
+        }
+    
+
+    .imagen-marco {
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 4px; /* Espacio entre el marco y el contenido interno */
+            border: 4px solid transparent; /* Ancho y estilo del marco */
+          }
+          
+    .viñedo2 {
+              width: 100%;
+          }
+          
+    .viñedo2 h2 {
+              font-size: 90px;
+              line-height: 70px;
+              color: #232323;
+              margin-bottom: 5px;
+              margin-top: 5%;
+          }
+          
+    .pie-image2 {
+            margin-top: -10px;
+        }
+
+    .img-fluid2 {
+            width: 100%;
+            height: auto;
+            margin-top: 2%;
+        }
+        
+    .services2 {
+        position: relative;
+        overflow: hidden;
+        height: auto;
+    }
+
+    .video-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Cambia el valor alpha (0.5) para ajustar la opacidad */
+        z-index: 0;
+        
+    }
+
+    .services-content {
+        text-align: center;
+    }
+    
+    .services-content h2 {
+        font-size: 55px;
+        line-height: 70px;
+        color: #f9f9f9;
+        margin-bottom: 50px;
+    }
+    
+    .services-content p {
+        font-size: 16px;
+        color: #f9f9f9;
+        margin-bottom: 50px;
+        padding: 0 100px;
+    }
+
+    .services-group {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    
+    .services-1 {
+        padding: 0 100px;
+    }
+    
+    .services-1 img {
+        width: 25px;
+        margin-bottom: 15px;
+    }
+    
+    .services-1 h3{
+        color: #c5c5c5;
+        font-size: 18px;
+    }
+
+    .icon1 {
+        width: auto;
+    }
+    .catalogo{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+    .contacto{
+
+        background: linear-gradient(90deg, #c00063 0%, #c00063 30%, #a10056 30%, #890049 100%);
+        margin-left: -30px;
+    }
+    
+    .contactUs {
+        position: relative;
+        width: 100%;
+        padding: 40px 100px;
+    }
+    
+    .contactUs .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 120%;
+    }
+    
+    .contactUs .title h3 {
+        color: #f9fafc;
+    }
+    
+    .form
+    {
+        grid-area: form;
+    }
+    
+    .info
+    {
+        grid-area: info;
+    }
+    
+    .map
+    {
+        grid-area: map;
+    }
+    
+    .contact {
+        padding: 40px;
+        background: #fff;
+        box-shadow: 0 5px 35px rgba(0,0,0,0.15);
+    }
+    
+    .box
+    {
+        position: relative;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 5fr 4fr;
+        grid-template-areas: "form info" "form map";
+        grid-gap: 20px;
+        margin-top: 10px;
+    
+    }
+    
+    .contact h3 {
+        color: #272727;
+        font-size: 1em;
+        font-weight: lighter;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    
+    .formbox {
+        position: relative;
+        width: 100%;
+    }
+    
+    .formbox .row50 {
+        display: flex;
+        gap: 20px;
+    
+    }
+    .inputbox {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        width: 50%;
+    }
+    
+    .formbox .row100 .inputbox {
+        width: 100%;
+    }
+    
+    .inputbox span  {
+        color:#232323;
+        margin-top: 10px;
+        margin-bottom:  5px;
+        font-weight: 500;
+    }
+    
+    .inputbox input {
+        padding: 10px;
+        font-size: 1.1em;
+        outline: none;
+        border: 1px solid #3a3a3a;
+    }
+    .inputbox textarea {
+        padding: 10px;
+        font-size: 1.1em;
+        outline: none;
+        border: 1px solid #3a3a3a;
+        resize: none;
+        min-height: 220px;
+        margin-bottom: 10px;
+        font-family: 'POPPINS';
+    }
+    
+    .inputbox input[type="submit"]
+    {
+        background-color: #c00063;
+        color: #ffffff;
+        border: none;
+        font-size: 1.1em;
+        max-width: 120px;
+        cursor: pointer;
+        padding: 14px 15px;
+    }
+    
+    .inputbox input[type="submit"]:hover{
+        background-color: #76013e;
+    }
+    
+    .infobox p{
+        font-size: 15px;
+    }
+    
+    .info {
+        background: #75c525;
+    }
+    
+    .info h3{
+        color: rgb(255, 255, 255);
+        
+    }
+    
+    .info .infobox div{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .info .infobox div span{
+    min-width: 40px;
+    height: 40px;
+    color: #f9fafc;
+    background: #355a11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 50%;
+    margin-right: 15px;
+    }
+    .info .infobox div p {
+        color: #f9f9f9;
+        font-size: 1.1em;
+        margin-bottom: 9px;
+    }
+    .info .infobox div a {
+        color: #f9f9f9;
+        text-decoration: none;
+        font-size: 1.1em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+       
+    }
+    .sci{
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .sci li {
+        list-style: none;
+        margin-right: 15px;
+        margin-top: -50px;
+    
+    }
+    .sci li a {
+        color: white;
+        font-size: 2em;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+    }
+    .sci li a:hover {
+        color: #322f2f;
+        border-radius:50% ;
+    }
+    .map {
+        padding: 0;
+    }
+    .map iframe{
+        width: 100%;
+        height: 100%;
+    }
+
+  @media (max-width: 768px) {
+    .pie-image {
+      max-width: 100%; 
+      margin: -30px auto; 
+    }
+  }
+
+.services-content {
+    text-align: center;
+    margin-top: 50%;
+    font-family: 'Lobster', cursive;
+}
+
+.services-content h2 {
+    font-size: 85px;
+    line-height: 70px;
+    color: #f9f9f9;
+    margin-bottom: 50px;
+    margin-top: 160px;
+}
+
+.services-content p {
+    font-size: 16px;
+    color: #f9f9f9;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.services-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.services-1 {
+    padding: 0 100px;
+    margin-left: -40px;
+}
+
+.services-1 img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 0;
+}
+
+.services-1 h3{
+    color: #c5c5c5;
+    font-size: 35px;
+
+}
+
+.services2 p{
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.806);
+    height: auto;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #232323;
+    margin-bottom: 20px;
+    font-family: 'Lobster';
+    text-align: center;
+    margin-top: 5%;
+}
+
+p {
+    font-size: 55px;
+    color: #6a6a6a;
+    margin: 25px 0 45px 0;
+}
+.footer {
+    padding: 100px 0;
+    background-color: #c00063;
+
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+
+.link a{
+    font-size: 16px;
+    color: #f9fafc;
+    display: block;
+    margin-top: 15px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+#video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.services-content {
+    position: relative;
+    z-index: 1;
+
+}
+
+.link p {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: -50px;
+
+}
+
+.footer address{
+    color: white;
+    margin: 5%;
+}
+@media (max-width:500px) {
+
+
+    .contactus {
+    padding: 20px;
+
+}
+.link p {
+    color: #fff;
+    font-size: 15px;
+    margin: 5%;
+    padding: 5%;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+    .box {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "form"
+        "info"
+        "map";
+    }
+
+
+
+    .formbox .row50 {
+        display: flex;
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .inputbox {
+        width: 100%;
+
+    }
+
+    .contact {
+        padding: 30px;
+    }
+
+    .map {
+        min-height: 300px;
+        padding: 0;
+    }
+
+   .services-group {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 10%;
+   }
+
+   .header-content h1{
+    font-size: 800%;
+    margin-top:0;
+   }
+
+   .header-content p{
+    font-size: 200%;
+    display:contents;
+   }
+
+   .viñedo2 h2{
+    padding: 10%;
+    font-size: 75px;
+   }
+
+   .footer {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+
+   .link h3{
+    position: relative;
+    display: grid;
+    padding: auto;
+    margin-top: -50px;
+
+   }
+
+   .sci{
+    position: relative;
+    padding: auto;
+    margin-left: 100%;
+    margin-top: -20%;
+    background-color: transparent;
+    margin-bottom: 10px;
+   }
+}
+
+@media only screen and (max-width: 500px){
+    
+}
